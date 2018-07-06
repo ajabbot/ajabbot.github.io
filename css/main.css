@@ -40,13 +40,18 @@ body,html{
 .links {
     width: 100%;
     text-align: center;
-    height: 10vh;
+    height: 5vh;
     top: 65%;
     position: absolute;
 }
 
 .link {
     text-decoration: none;
+}
+
+.link:hover {
+    filter: drop-shadow(5px 5px 5px black);
+    transition: all .2s;
 }
 
 .link-icon {
