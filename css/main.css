@@ -40,7 +40,7 @@ html {
     color: white;
     font-size: calc(3em + 7vw);
     font-family: 'Cinzel', serif;
-    font-weight: 300;
+    font-weight: 400;
     opacity: 0;
     animation: 2s fadeUp 1.5s;
     animation-fill-mode: forwards;
