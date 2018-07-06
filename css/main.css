@@ -35,11 +35,12 @@ html {
     text-align: center;
     height: 15vh;
     top: 45%;
-    line-height: 10vh;
+    line-height: 12vh;
     position: absolute;
     color: white;
-    font-family: 'Cinzel', serif;
     font-size: calc(3em + 7vw);
+    font-family: 'Cinzel', serif;
+    font-weight: 300;
     opacity: 0;
     animation: 2s fadeUp 1.5s;
     animation-fill-mode: forwards;
@@ -68,6 +69,7 @@ html {
 
 .link:hover {
     filter: drop-shadow(5px 5px 5px black);
+    transform: scale(1.5);
     transition: all .2s;
 }
 
